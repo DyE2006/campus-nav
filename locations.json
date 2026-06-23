@@ -1,0 +1,164 @@
+[
+  {
+    "name": "Faculty of Science",
+    "emoji": "🔬",
+    "lat": 4.798011,
+    "lng": 6.978096,
+    "description": "Home to departments including Biology, Chemistry, Physics and Computer Science",
+    "keywords": ["science faculty", "fos", "science", "sci", "sciences", "sc"],
+    "image": "images/faculty-science.jpg"
+  },
+  {
+    "name": "Faculty of Engineering",
+    "emoji": "⚙️",
+    "lat": 4.794739,
+    "lng": 6.978055,
+    "description": "Home to departments including Civil, Mechanical and Electrical Engineering",
+    "keywords": ["engineering faculty", "foe", "engineering", "eng", "engineers"],
+    "image": "images/faculty-engineering.jpg"
+  },
+  {
+    "name": "ICTC",
+    "emoji": "📡",
+    "lat": 4.796339,
+    "lng": 6.977951,
+    "description": "Information and Communication Technology Centre",
+    "keywords": ["ict centre", "information technology", "computer centre", "ict"],
+    "image": "images/ictc.jpg"
+  },
+  {
+    "name": "Faculty of Law",
+    "emoji": "⚖️",
+    "lat": 4.799404,
+    "lng": 6.977955,
+    "description": "Faculty of Law, Rivers State University",
+    "keywords": ["law faculty", "fol", "law"],
+    "image": "images/faculty-law.jpg"
+  },
+  {
+    "name": "Faculty of Management",
+    "emoji": "📊",
+    "lat": 4.799205,
+    "lng": 6.980878,
+    "description": "Faculty of Management Sciences, Rivers State University",
+    "keywords": ["management faculty", "foms", "management sciences", "management", "mgmt", "mgmt sciences"],
+    "image": "images/faculty-management.jpg"
+  },
+  {
+    "name": "RSU Main Gate",
+    "emoji": "🚪",
+    "lat": 4.804130,
+    "lng": 6.986839,
+    "description": "Main entrance gate of Rivers State University",
+    "keywords": ["main gate", "gate", "entrance", "rsu gate"],
+    "image": "images/main-gate.jpg"
+  },
+  {
+    "name": "Senate Building",
+    "emoji": "🏛️",
+    "lat": 4.799342,
+    "lng": 6.983553,
+    "description": "Senate Building, Rivers State University",
+    "keywords": ["senate", "admin", "administration"],
+    "image": "images/senate.jpg"
+  },
+  {
+    "name": "RSU Library",
+    "emoji": "📚",
+    "lat": 4.801695,
+    "lng": 6.978131,
+    "description": "Rivers State University Library",
+    "keywords": ["library", "rsu library", "main library"],
+    "image": "images/library.jpg"
+  },
+  {
+    "name": "Biology Lab",
+    "emoji": "🧬",
+    "lat": 4.797204,
+    "lng": 6.979249,
+    "description": "Biology Laboratory, Faculty of Science, Rivers State University",
+    "keywords": ["bio lab", "biology laboratory", "biology", "Bl1"],
+    "image": "images/biology-lab.jpg"
+  },
+  {
+    "name": "Chemistry Lab",
+    "emoji": "⚗️",
+    "lat": 4.798006,
+    "lng": 6.979169,
+    "description": "Chemistry Laboratory, Faculty of Science, Rivers State University",
+    "keywords": ["chem lab", "chemistry laboratory", "chemistry", "Cl1"],
+    "image": "images/chemistry-lab.jpg"
+  },
+  {
+    "name": "Physics Lab",
+    "emoji": "🔭",
+    "lat": 4.798343,
+    "lng": 6.979254,
+    "description": "Physics Laboratory, Faculty of Science, Rivers State University",
+    "keywords": ["phy lab", "physics laboratory", "physics", "Pl1"],
+    "image": "images/physics-lab.jpg"
+  },
+  {
+    "name": "Tetfund Building",
+    "emoji": "🏢",
+    "lat": 4.798395,
+    "lng": 6.978638,
+    "description": "Also known as Med Lab Building. Houses Computer Science and Medical Laboratory classrooms, Rivers State University",
+    "keywords": ["tetfund", "medlab", "med lab", "computer science classroom", "medical laboratory", "tetfund building", "cms", "sc building"],
+    "image": "images/tetfund.jpg"
+  },
+  {
+    "name": "Convocation Arena",
+    "emoji": "🎓",
+    "lat": 4.801228,
+    "lng": 6.980483,
+    "description": "Convocation Arena, Rivers State University",
+    "keywords": ["convocation", "arena", "convocation arena", "graduation"],
+    "image": "images/placeholder.jpg"
+  },
+  {
+    "name": "Faculty of Social Sciences/Humanities",
+    "emoji": "👥",
+    "lat": 4.797787,
+    "lng": 6.980708,
+    "description": "Faculty of Social Sciences/Humanities, Rivers State University",
+    "keywords": ["social sciences", "foss", "social science faculty", "Humanities"],
+    "image": "images/social-sciences.jpg"
+  },
+  {
+    "name": "Medical Centre",
+    "emoji": "🏥",
+    "lat": 4.796468,
+    "lng": 6.977046,
+    "description": "Rivers State University Medical Centre, providing health services to students and staff",
+    "keywords": ["medical", "clinic", "health centre", "medical centre", "hospital", "sick bay", "Med Centre", "Med"],
+    "image": "images/medical-centre.jpg"
+  },
+  {
+    "name": "Computer Science Software Lab",
+    "emoji": "🖥️",
+    "lat": 4.798075,
+    "lng": 6.978439,
+    "description": "Computer Science Software Laboratory, Faculty of Science, Rivers State University",
+    "keywords": ["software lab", "cslab", "computer lab", "software laboratory", "cs software"],
+    "image": "images/software-lab.jpg"
+  },
+  {
+    "name": "Department of Mathematics",
+    "emoji": "🧮",
+    "lat": 4.797755,
+    "lng": 6.978274,
+    "description": "Department of Mathematics, Faculty of Science, Rivers State University",
+    "keywords": ["maths", "mth", "mathematics", "math department", "maths department", "mth department", "maths department", "maths dept", "math dept"],
+    "image": "images/mathematics.jpg"
+  },
+  {
+  "name": "Shopping Complex",
+  "emoji": "🛍️",
+  "lat": 4.791282,
+  "lng": 6.981991,
+  "description": "RSU Shopping Complex, Rivers State University",
+  "keywords": ["shopping", "shopping complex", "complex", "rsu shopping", "market", "shopping centre"],
+  "image": "images/placeholder.jpg"
+  }
+]

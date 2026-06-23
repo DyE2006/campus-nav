@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>RSU Campus Navigation System</title>
+
+  <!-- Leaflet CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet-routing-machine@3.2.12/dist/leaflet-routing-machine.css" />
+
+  <!-- My CSS -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<div id="header">
+  <h1>RSU Campus Navigation System</h1>
+</div>
+
+<div id="toolbar">
+  <div id="search-container">
+    <div id="search-fields">
+      <div class="search-row">
+        <span class="search-label">📍</span>
+        <input type="text" id="startInput" placeholder="Start: Leave empty to use your location..." />
+      </div>
+      <div id="swap-container">
+        <button id="swapBtn">⇅</button>
+      </div>
+      <div class="search-row">
+        <span class="search-label">🏁</span>
+        <input type="text" id="destinationInput" placeholder="Destination: Enter campus building..." />
+      </div>
+    </div>
+    <button id="searchBtn">Search</button>
+  </div>
+  <div id="toolbar-buttons">
+    <button id="findMeBtn">👤 Find Me</button>
+    <button id="routeBtn">🧭 Route</button>
+    <button id="cancelRouteBtn" style="display:none;">✖ Cancel Route</button>
+    <button id="guideBtn">📖 User Guide</button>
+  </div>
+</div>
+
+<div id="map"></div>  
+  <!-- Leaflet JS -->
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="https://unpkg.com/leaflet-routing-machine@3.2.12/dist/leaflet-routing-machine.js"></script>
+
+  <!-- My JS -->
+  <script src="script.js"></script>
+
+<!-- User Guide Modal -->
+<div id="guide-overlay"></div>
+<div id="guide-modal">
+  <div id="guide-header">
+    <span>📖 User Guide</span>
+    <button id="guide-close">✕</button>
+  </div>
+<div id="guide-content">
+  <div class="guide-step">
+    <div class="guide-icon">🔍</div>
+    <div class="guide-text">
+      <h3>Search Location</h3>
+      <p>Type a destination in the bottom field and press Search or Enter. Leave the Start field empty to search from your current location, or type a campus building in the Start field to find a route between two locations.</p>
+    </div>
+  </div>
+  <div class="guide-step">
+    <div class="guide-icon">⇅</div>
+    <div class="guide-text">
+      <h3>Swap Locations</h3>
+      <p>Press the ⇅ button between the two fields to swap your start and destination instantly.</p>
+    </div>
+  </div>
+  <div class="guide-step">
+    <div class="guide-icon">👤</div>
+    <div class="guide-text">
+      <h3>Find Me</h3>
+      <p>Click the Find Me button to locate yourself on the map. Allow location access when prompted by your browser.</p>
+    </div>
+  </div>
+  <div class="guide-step">
+    <div class="guide-icon">🧭</div>
+    <div class="guide-text">
+      <h3>Get Directions</h3>
+      <p>Search for a destination then click the Route button to get turn-by-turn directions. The route updates live as you move. Click Cancel Route to stop navigation.</p>
+    </div>
+  </div>
+  <div class="guide-step">
+    <div class="guide-icon">🤖</div>
+    <div class="guide-text">
+      <h3>Chatbot Assistant</h3>
+      <p>Click the green robot button at the bottom right to open the AI assistant. Ask questions like "Where is the library?" or use the quick suggestion buttons. The chatbot can also get directions for you!</p>
+    </div>
+  </div>
+  <div class="guide-step">
+    <div class="guide-icon">🗺️</div>
+    <div class="guide-text">
+      <h3>Explore the Map</h3>
+      <p>Click any emoji marker on the map to see information about that location and get directions there directly.</p>
+    </div>
+  </div>
+</div>
+</div>
+
+  <!-- Chatbot -->
+<div id="chatbot-btn">🤖</div>
+
+<div id="chatbot-container">
+  <div id="chatbot-header">
+    <span>RSU Navigation Assistant</span>
+    <button id="chatbot-close">✕</button>
+  </div>
+  <div id="chatbot-messages"></div>
+  <div id="chatbot-suggestions">
+    <button class="suggestion-btn">📚 Library</button>
+    <button class="suggestion-btn">💻 ICTC</button>
+    <button class="suggestion-btn">⚖️ Faculty of Law</button>
+    <button class="suggestion-btn">🚪 Main Gate</button>
+    <button class="suggestion-btn">🔬 Faculty of Science</button>
+    <button class="suggestion-btn">🎓 Convocation Arena</button>
+  </div>
+  <div id="chatbot-input-container">
+    <input type="text" id="chatbot-input" placeholder="Ask me anything..." />
+    <button id="chatbot-send">Send</button>
+  </div>
+</div>
+
+</body>
+</html>
