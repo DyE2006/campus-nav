@@ -578,21 +578,18 @@ body {
 
 /* ── Collapsible toolbar ── */
 #toolbar-toggle {
-  background-color: #1a6b3c;
+  background-color: #145230;
   color: white;
   border: none;
   width: 100%;
-  padding: 6px;
+  padding: 7px;
   cursor: pointer;
   font-size: 0.85rem;
   font-family: var(--FONT-FAMILY);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 6px;
-  transition: background-color 0.2s;
+  text-align: center;
+  letter-spacing: 0.5px;
 }
 
 #toolbar-toggle:hover {
-  background-color: #145230;
+  background-color: #0f3d22;
 }

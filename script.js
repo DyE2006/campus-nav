@@ -74,14 +74,12 @@ locateUser();
 // ── Collapsible toolbar ──
 function collapseToolbar() {
   document.getElementById('toolbar').classList.add('collapsed');
-  document.getElementById('toggle-icon').textContent = '▼';
-  document.getElementById('toolbar-toggle').childNodes[1].textContent = ' Show Search';
+  document.getElementById('toolbar-toggle').textContent = '▼  Show Search';
 }
 
 function expandToolbar() {
   document.getElementById('toolbar').classList.remove('collapsed');
-  document.getElementById('toggle-icon').textContent = '▲';
-  document.getElementById('toolbar-toggle').childNodes[1].textContent = ' Hide Search';
+  document.getElementById('toolbar-toggle').textContent = '▲  Hide Search';
 }
 
 document.getElementById('toolbar-toggle').addEventListener('click', function() {
