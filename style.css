@@ -35,6 +35,17 @@ body {
   flex-direction: row;
   align-items: center;
   gap: 10px;
+   transition: max-height 0.35s ease, padding 0.35s ease, opacity 0.3s ease;
+  max-height: 400px;
+  overflow: hidden;
+  opacity: 1;
+}
+
+#toolbar.collapsed {
+  max-height: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+  opacity: 0;
 }
 
 #search-container {
@@ -563,4 +574,25 @@ body {
   font-size: 0.8rem;
   font-family: var(--FONT-FAMILY);
   z-index: 1000;
+}
+
+/* ── Collapsible toolbar ── */
+#toolbar-toggle {
+  background-color: #1a6b3c;
+  color: white;
+  border: none;
+  width: 100%;
+  padding: 6px;
+  cursor: pointer;
+  font-size: 0.85rem;
+  font-family: var(--FONT-FAMILY);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  transition: background-color 0.2s;
+}
+
+#toolbar-toggle:hover {
+  background-color: #145230;
 }

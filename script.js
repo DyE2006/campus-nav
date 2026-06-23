@@ -70,6 +70,25 @@ function locateUser() {
 
 // Try locating immediately on load
 locateUser();
+
+// ── Collapsible toolbar ──
+function collapseToolbar() {
+  document.getElementById('toolbar').classList.add('collapsed');
+  document.getElementById('toggle-icon').textContent = '▼';
+  document.getElementById('toolbar-toggle').childNodes[1].textContent = ' Show Search';
+}
+
+function expandToolbar() {
+  document.getElementById('toolbar').classList.remove('collapsed');
+  document.getElementById('toggle-icon').textContent = '▲';
+  document.getElementById('toolbar-toggle').childNodes[1].textContent = ' Hide Search';
+}
+
+document.getElementById('toolbar-toggle').addEventListener('click', function () {
+  const toolbar = document.getElementById('toolbar');
+  toolbar.classList.contains('collapsed') ? expandToolbar() : collapseToolbar();
+});
+
 // Step 5: Find Me button - flies back to user location
 document.getElementById('findMeBtn').addEventListener('click', function() {
   if (userLatLng) {
